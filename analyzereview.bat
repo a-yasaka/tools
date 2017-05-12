@@ -8,8 +8,7 @@ del c:\users\nriuser\desktop\reviews_det2.csv
 del c:\users\nriuser\desktop\meetings_det2.csv
 del c:\users\nriuser\desktop\documents_det2.csv
 del c:\users\nriuser\desktop\reviews_make2.csv
-del c:\users\nriuser\desktop\reviews_utc2.csv
-del c:\users\nriuser\desktop\reviews_ute2.csv
+del c:\users\nriuser\desktop\reviews_ut2.csv
 del c:\users\nriuser\desktop\bugs_ut2.csv
 
 jruby c:\users\nriuser\tools\makeimportfile.rb
