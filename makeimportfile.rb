@@ -29,4 +29,4 @@ transform(dir+"reviews_make.csv",  dir+"reviews_make2.csv")
 transform(dir+"reviews_utc.csv",   dir+"reviews_utc2.csv")
 transform(dir+"reviews_ute.csv",   dir+"reviews_ute2.csv")
 
-transform(dir+"bugs_ut.csv",       dir+"bugs_ut2.csv")
+transform(dir+"bugs_ute.csv",      dir+"bugs_ute2.csv")

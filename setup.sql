@@ -13,7 +13,7 @@ truncate table reviews_make;
 truncate table reviews_utc;
 truncate table reviews_ute;
 
-truncate table bugs_ut;
+truncate table bugs_ute;
 
 \copy reviews_gai from c:/users/nriuser/desktop/reviews_gai2.csv with csv
 \copy meetings_gai from c:/users/nriuser/desktop/meetings_gai2.csv with csv
@@ -22,12 +22,12 @@ truncate table bugs_ut;
 \copy meetings_nai from c:/users/nriuser/desktop/meetings_nai2.csv with csv
 \copy documents_nai from c:/users/nriuser/desktop/documents_nai2.csv with csv
 
-\copy documents_nai from c:/users/nriuser/desktop/reviews_det2.csv with csv
-\copy documents_nai from c:/users/nriuser/desktop/meetings_det2.csv with csv
-\copy documents_nai from c:/users/nriuser/desktop/documents_det2.csv with csv
+\copy reviews_det from c:/users/nriuser/desktop/reviews_det2.csv with csv
+\copy meetings_det from c:/users/nriuser/desktop/meetings_det2.csv with csv
+\copy documents_det from c:/users/nriuser/desktop/documents_det2.csv with csv
 
-\copy documents_nai from c:/users/nriuser/desktop/reviews_make2.csv with csv
-\copy documents_nai from c:/users/nriuser/desktop/reviews_utc2.csv with csv
-\copy documents_nai from c:/users/nriuser/desktop/reviews_ute2.csv with csv
+\copy reviews_make from c:/users/nriuser/desktop/reviews_make2.csv with csv
+\copy reviews_utc from c:/users/nriuser/desktop/reviews_utc2.csv with csv
+\copy reviews_ute from c:/users/nriuser/desktop/reviews_ute2.csv with csv
 
-\copy documents_nai from c:/users/nriuser/desktop/bugs_ut2.csv with csv
+\copy bugs_ute from c:/users/nriuser/desktop/bugs_ute2.csv with csv
