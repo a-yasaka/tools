@@ -14,9 +14,9 @@ end
 
 dir="c:/users/nriuser/desktop/"
 
-transform(dir+"reviews_gai.csv",dir+"reviews_gai2.csv")
-transform(dir+"meetings_gai.csv",dir+"meetings_gai2.csv")
-transform(dir+"documents_gai.csv",dir+"documents_gai2.csv")
+#transform(dir+"reviews_gai.csv",dir+"reviews_gai2.csv")
+#transform(dir+"meetings_gai.csv",dir+"meetings_gai2.csv")
+#transform(dir+"documents_gai.csv",dir+"documents_gai2.csv")
 transform(dir+"reviews_nai.csv",dir+"reviews_nai2.csv")
 transform(dir+"meetings_nai.csv",dir+"meetings_nai2.csv")
 transform(dir+"documents_nai.csv",dir+"documents_nai2.csv")
