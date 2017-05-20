@@ -12,7 +12,7 @@ def transform(infile,outfile)
 	fo.close
 end
 
-dir="c:/users/nriuser/desktop/"
+dir="c:/users/nriuser/desktop/cranalyze/"
 
 #transform(dir+"reviews_gai.csv",dir+"reviews_gai2.csv")
 #transform(dir+"meetings_gai.csv",dir+"meetings_gai2.csv")
