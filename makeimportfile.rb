@@ -27,5 +27,7 @@ transform(dir+"documents_det.csv",dir+"documents_det2.csv")
 
 transform(dir+"reviews_make.csv",dir+"reviews_make2.csv")
 transform(dir+"reviews_ut.csv",dir+"reviews_ut2.csv")
+transform(dir+"reviews_ita.csv",dir+"reviews_ita2.csv")
 
 transform(dir+"bugs_ut.csv",dir+"bugs_ut2.csv")
+transform(dir+"bugs_ita.csv",dir+"bugs_ita2.csv")
