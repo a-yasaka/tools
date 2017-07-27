@@ -21,9 +21,9 @@ transform(dir+"reviews_nai.csv",dir+"reviews_nai2.csv")
 transform(dir+"meetings_nai.csv",dir+"meetings_nai2.csv")
 transform(dir+"documents_nai.csv",dir+"documents_nai2.csv")
 
-transform(dir+"reviews_det.csv",dir+"reviews_det2.csv")
-transform(dir+"meetings_det.csv",dir+"meetings_det2.csv")
-transform(dir+"documents_det.csv",dir+"documents_det2.csv")
+#transform(dir+"reviews_det.csv",dir+"reviews_det2.csv")
+#transform(dir+"meetings_det.csv",dir+"meetings_det2.csv")
+#transform(dir+"documents_det.csv",dir+"documents_det2.csv")
 
 transform(dir+"reviews_make.csv",dir+"reviews_make2.csv")
 transform(dir+"reviews_ut.csv",dir+"reviews_ut2.csv")
