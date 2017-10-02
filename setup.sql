@@ -16,6 +16,8 @@ drop table reviews_ita;
 drop table bugs_ut;
 drop table bugs_ita;
 
+drop table meetings_ita;
+
 create table documents_gai (¬‰Ê•¨No text, ‘å‹@”\•ª—Þ text, ’†‹@”\•ª—Þ text, ¬‹@”\•ª—Þ text, ¬‰Ê•¨ƒtƒ@ƒCƒ‹–¼ text, ¬‰Ê•¨–¼ text, ƒTƒuH’ö text, ‘å¬‰Ê•¨•ª—Þ text, ’†¬‰Ê•¨•ª—Þ text, ¬¬‰Ê•¨•ª—Þ text, V‹KC³‹æ•ª text, “ïˆÕ“x text, d—v“x text, ì¬’S“–ƒ`[ƒ€ text, ì¬’S“–ŽÒ text, —\’èƒy[ƒW” text, ƒXƒe[ƒ^ƒX text, ƒy[ƒW”iŽè“®j text);
 create table documents_nai (¬‰Ê•¨No text, ‘å‹@”\•ª—Þ text, ’†‹@”\•ª—Þ text, ¬‹@”\•ª—Þ text, ¬‰Ê•¨ƒtƒ@ƒCƒ‹–¼ text, ¬‰Ê•¨–¼ text, ƒTƒuH’ö text, ‘å¬‰Ê•¨•ª—Þ text, ’†¬‰Ê•¨•ª—Þ text, ¬¬‰Ê•¨•ª—Þ text, V‹KC³‹æ•ª text, “ïˆÕ“x text, d—v“x text, ì¬’S“–ƒ`[ƒ€ text, ì¬’S“–ŽÒ text, —\’èƒy[ƒW” text, ƒXƒe[ƒ^ƒX text, ƒy[ƒW”iŽè“®j text);
 create table documents_det (¬‰Ê•¨No text, ‘å‹@”\•ª—Þ text, ’†‹@”\•ª—Þ text, ¬‹@”\•ª—Þ text, ¬‰Ê•¨ƒtƒ@ƒCƒ‹–¼ text, ¬‰Ê•¨–¼ text, ƒTƒuH’ö text, ‘å¬‰Ê•¨•ª—Þ text, ’†¬‰Ê•¨•ª—Þ text, ¬¬‰Ê•¨•ª—Þ text, V‹KC³‹æ•ª text, “ïˆÕ“x text, d—v“x text, ì¬’S“–ƒ`[ƒ€ text, ì¬’S“–ŽÒ text, —\’èƒy[ƒW” text, ƒXƒe[ƒ^ƒX text, ƒy[ƒW”iŽè“®j text);
@@ -34,6 +36,7 @@ create table reviews_ita (Žw“ENo text, ¬‰Ê•¨‹æ•ª text, ‘å‹@”\•ª—Þ text, ’†‹@”\•
 
 create table bugs_ut (áŠQŠÇ—No text, ‹N•[“úYYYYMMDD text, ”­¶“úYYYYMMDD text, áŠQŒ–¼ text, ƒP[ƒXNo text, Ž–Û‹æ•ª text, Ž–Û“à—e text, ƒTƒuH’ö text, áŠQ”­¶ŠÂ‹« text, áŠQ”­¶ƒvƒƒOƒ‰ƒ€ID text, áŠQ”­¶ƒvƒƒOƒ‰ƒ€–¼ text, ‹N•[’S“–ŽÒ text, šŠ—Lƒ`[ƒ€ text, ƒTƒuƒ`[ƒ€ text, ’†‹@”\•ª—Þiƒe[ƒ}j text, ¬‹@”\•ª—Þi‹@”\j text, Š—LŽÒ text, ƒXƒe[ƒ^ƒX text, ŠúŒÀ“úYYYYMMDD text, Œ´ˆöŠÝ text, ì‚èž‚ÝŒ´ˆöH’ö text, ì‚èž‚ÝŒ´ˆö‹æ•ª text, ì‚èž‚ÝŒ´ˆöÚ× text, ì‚èž‚Ý‚Ì—¬oŒ´ˆö‹æ•ª text, ì‚èž‚Ý‚Ì—¬oŒ´ˆöÚ× text, “¯Œ’²¸—v”Û text, “¯Œ’²¸•ûj text, “¯Œ’²¸’S“–ŽÒ text, “¯Œ’²¸Š®—¹—\’è“úYYYYMMDD text, “¯Œ’²¸Š®—¹“úYYYYMMDD text, “¯Œ—L–³ text, “¯Œ’²¸Œ‹‰Ê text, ª–{Œ´ˆö text, ¥³ text, –{Ši‘Î‰ž—L–³ text, Œ»sƒVƒXƒeƒ€‰e‹¿ text, áŠQ”­¶ƒVƒXƒeƒ€ text, áŠQ‘Î‰žƒVƒXƒeƒ€ text, –{Ši‘Î‰ž“à—e text, C³‘ÎÛƒvƒƒOƒ‰ƒ€ID text, C³‘ÎÛƒvƒƒOƒ‰ƒ€–¼ text, –{Ši‘Î‰ž’S“–ŽÒ text, –{Ši‘Î‰ž—\’è“úYYYYMMDD text, —\’èC³l“úMD text, —\’èÄƒeƒXƒgl“úMD text, –{Ši‘Î‰žŽÀŽ{“úYYYYMMDD text, ŽÀÑC³l“úMD text, ŽÀÑÄƒeƒXƒgl“úMD text, –{Ši‘Î‰žŒ‹‰ÊŠm”F“úYYYYMMDD text, –{Ši‘Î‰žŒ‹‰ÊŠm”FŽÒ text, d—v“x text, ŠT—vÝŒv‘MMDD³”FŽÒj text, ŠO•”ÝŒv‘MMDD³”FŽÒj text, “à•”ÝŒv‘MMDD³”FŽÒj text, Ú×ÝŒv‘MMDD³”FŽÒj text, ŠJ”­MMDD³”FŽÒj text, ’P‘ÌƒeƒXƒgMMDD³”FŽÒj text, Š®—¹³”FŽÒ text, Š®—¹“úYYYYMMDD text, ŠùoáŠQNo text, ”õl text, ”­¶ƒeƒXƒgƒP[ƒX text, áŠQ‘ÎÛ¬‰Ê•¨–¼ text, XV“ú text, XVŽÒ text);
 create table bugs_ita (áŠQŠÇ—No text, ‹N•[“úYYYYMMDD text, ”­¶“úYYYYMMDD text, áŠQŒ–¼ text, ƒP[ƒXNo text, Ž–Û‹æ•ª text, Ž–Û“à—e text, ƒTƒuH’ö text, áŠQ”­¶ŠÂ‹« text, áŠQ”­¶ƒvƒƒOƒ‰ƒ€ID text, áŠQ”­¶ƒvƒƒOƒ‰ƒ€–¼ text, ‹N•[’S“–ŽÒ text, šŠ—Lƒ`[ƒ€ text, ƒTƒuƒ`[ƒ€ text, ’†‹@”\•ª—Þ text, ¬‹@”\•ª—Þ text, Š—LŽÒ text, ƒXƒe[ƒ^ƒX text, ŠúŒÀ“úYYYYMMDD text, Œ´ˆöŠÝ text, ì‚èž‚ÝŒ´ˆöH’ö text, ì‚èž‚ÝŒ´ˆö‹æ•ª text, ì‚èž‚ÝŒ´ˆöÚ× text, i–¢Žg—pjì‚èž‚Ý‚Ì—¬oŒ´ˆö‹æ•ª text, i–¢Žg—pjì‚èž‚Ý‚Ì—¬oŒ´ˆöÚ× text, —¬oŒ´ˆöH’ö text, —¬oŒ´ˆö‹æ•ª text, “¯Œ’²¸—v”Û text, “¯Œ’²¸•ûj text, “¯Œ’²¸’S“–ŽÒ text, “¯Œ’²¸Š®—¹—\’è“úYYYYMMDD text, “¯Œ’²¸Š®—¹“úYYYYMMDD text, “¯Œ—L–³ text, “¯Œ’²¸Œ‹‰Ê text, ª–{Œ´ˆö text, ¥³ text, –{Ši‘Î‰ž—L–³ text, Œ»sƒVƒXƒeƒ€‰e‹¿ text, áŠQ”­¶ƒVƒXƒeƒ€ text, áŠQ‘Î‰žƒVƒXƒeƒ€ text, –{Ši‘Î‰ž“à—e text, C³‘ÎÛƒvƒƒOƒ‰ƒ€ID text, C³‘ÎÛƒvƒƒOƒ‰ƒ€–¼ text, –{Ši‘Î‰ž’S“–ŽÒ text, –{Ši‘Î‰ž—\’è“úYYYYMMDD text, —\’èC³l“úMD text, —\’èÄƒeƒXƒgl“úMD text, –{Ši‘Î‰žŽÀŽ{“úYYYYMMDD text, ŽÀÑC³l“úMD text, ŽÀÑÄƒeƒXƒgl“úMD text, –{Ši‘Î‰žŒ‹‰ÊŠm”F“úYYYYMMDD text, –{Ši‘Î‰žŒ‹‰ÊŠm”FŽÒ text, d—v“x text, ŠT—vÝŒv‘MMDD³”FŽÒj text, ŠO•”ÝŒv‘MMDD³”FŽÒj text, “à•”ÝŒv‘MMDD³”FŽÒj text, Ú×ÝŒv‘MMDD³”FŽÒj text, ŠJ”­MMDD³”FŽÒj text, ’P‘ÌƒeƒXƒgMMDD³”FŽÒj text, “à•”˜AŒ‹ƒeƒXƒgMMDD³”FŽÒj text, Š®—¹³”FŽÒ text, Š®—¹“úYYYYMMDD text, ŠùoáŠQNo text, ”õl text, ”­¶ƒeƒXƒgƒP[ƒX text, áŠQ‘ÎÛ¬‰Ê•¨–¼ text, XV“ú text, XVŽÒ text);
+create table meetings_ita (ƒŒƒrƒ…[‰ï‹cNo text, ƒŒƒrƒ…[‰ï‹c–¼Ì text, ‰ï‹cŒ`‘Ô text, ƒŒƒrƒ…[‰ñ” text, ƒŒƒrƒ…ƒA[ text, ‘ƒŒƒrƒ…[ŽžŠÔ•ª text, Žw“E—L–³ text, š‹N•[ƒ`[ƒ€ text, ƒTƒuƒ`[ƒ€ text, ‹N•[ŽÒ text, ŽÀŽ{“ú•tYYYYMMDD text, ŽÀŽ{êŠ text, ŠJŽnŽžHHMM text, I—¹ŽžHHMM text, ‰ï‹cŽåÃŽÒ text, ƒŒƒrƒ…ƒA[ˆÈŠO‚ÌoÈŽÒ text, ”õl text, ŠÖ˜A¬‰Ê•¨–¼ text);
 
 
 
@@ -57,3 +60,5 @@ create table bugs_ita (áŠQŠÇ—No text, ‹N•[“úYYYYMMDD text, ”­¶“úYYYYMMDD text
 
 \copy bugs_ut from c:/users/nriuser/desktop/cranalyze/bugs_ut2.csv with csv
 \copy bugs_ita from c:/users/nriuser/desktop/cranalyze/bugs_ita2.csv with csv
+
+\copy meetings_ita from c:/users/nriuser/desktop/cranalyze/meetings_ita2.csv with csv

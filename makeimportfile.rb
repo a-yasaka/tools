@@ -31,3 +31,5 @@ transform(dir+"reviews_ita.csv",dir+"reviews_ita2.csv")
 
 #transform(dir+"bugs_ut.csv",dir+"bugs_ut2.csv")
 transform(dir+"bugs_ita.csv",dir+"bugs_ita2.csv")
+
+transform(dir+"meetings_ita.csv",dir+"meetings_ita2.csv")
